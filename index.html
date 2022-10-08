@@ -1586,20 +1586,24 @@
       </div>
       <!-- NAV BAR ends-->
     </header>
-    <div class="w-[100%] flex justify-between">
-      <div class="w-[15%] h-[100%] mt-[12%] max-h-[78vh] lg:h-[78vh]">
-        <aside class="w-[15%] fixed" aria-label="Sidebar">
-          <div
-            class="overflow-y-auto py-4 px-3 bg-gray-50 rounded dark:bg-gray-800"
-          >
+    <div class="w-[100%] flex h-[100%] justify-between">
+      <div class="w-[15%] bg-[#f8fbff] mt-[11%] sidebar">
+        <aside
+          class="w-[15%] h-[100vh] bg-[#f8fbff] border-r-2 fixed sidebar"
+          aria-label="Sidebar"
+        >
+          <div class="overflow-y-auto py-4 px-3 bg-[#f8fbff] rounded sidebar">
             <ul class="space-y-2">
               <li>
                 <a
                   href="#"
                   class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
                 >
-                <i class="fa-solid fa-info"></i>
-                  <span class="ml-3">About us</span>
+                  <i class="fa-solid fa-info text-gray-500"></i>
+                  <span
+                    class="flex-1 ml-3 whitespace-nowrap text-[18px] text-gray-500 font-semibold"
+                    >About us</span
+                  >
                 </a>
               </li>
 
@@ -1608,8 +1612,11 @@
                   href="#"
                   class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
                 >
-                <i class="fa-solid fa-calendar-days"></i>
-                  <span class="flex-1 ml-3 whitespace-nowrap">Events</span>
+                  <i class="fa-solid fa-calendar-days text-gray-500"></i>
+                  <span
+                    class="flex-1 ml-3 whitespace-nowrap text-gray-500 text-[18px] font-semibold"
+                    >Events</span
+                  >
                 </a>
               </li>
               <li>
@@ -1617,8 +1624,11 @@
                   href="#"
                   class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
                 >
-                <i class="fa-solid fa-link"></i>
-                  <span class="flex-1 ml-3 whitespace-nowrap">Communities</span>
+                  <i class="fa-solid fa-link text-gray-500"></i>
+                  <span
+                    class="flex-1 ml-3 whitespace-nowrap text-[18px] text-gray-500 font-semibold"
+                    >Communities</span
+                  >
                 </a>
               </li>
               <li>
@@ -1626,8 +1636,11 @@
                   href="#"
                   class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
                 >
-                <i class="fa-solid fa-hand"></i>
-                  <span class="flex-1 ml-3 whitespace-nowrap">Giving Back</span>
+                  <i class="fa-solid fa-hand text-gray-500"></i>
+                  <span
+                    class="flex-1 ml-3 whitespace-nowrap text-[18px] text-gray-500 font-semibold"
+                    >Giving Back</span
+                  >
                 </a>
               </li>
               <li>
@@ -1635,8 +1648,11 @@
                   href="#"
                   class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
                 >
-                <i class="fa-solid fa-newspaper"></i>
-                  <span class="flex-1 ml-3 whitespace-nowrap">News</span>
+                  <i class="fa-solid fa-newspaper text-gray-500"></i>
+                  <span
+                    class="flex-1 ml-3 whitespace-nowrap text-[18px] text-gray-500 font-semibold"
+                    >News</span
+                  >
                 </a>
               </li>
               <li>
@@ -1644,8 +1660,11 @@
                   href="#"
                   class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
                 >
-                <i class="fa-regular fa-user"></i>
-                  <span class="flex-1 ml-3 whitespace-nowrap">LogIn</span>
+                  <i class="fa-regular fa-user text-gray-500"></i>
+                  <span
+                    class="flex-1 ml-3 whitespace-nowrap text-[18px] text-gray-500 font-semibold"
+                    >Login</span
+                  >
                 </a>
               </li>
             </ul>
@@ -2214,8 +2233,37 @@
             ></iframe>
           </div>
         </div>
+        <!--donation-->
+        <div
+          class="sm:col-span-1 sm:row-span-1 lg:col-span-2 lg:row-span-1 m-4 mt-[5%]"
+        >
+          <div
+            class="shadow-2xl h-full relative flex justify-between rounded-md p-4 bg-[url('img/support.png')] bg-center bg-cover"
+          >
+            <div class="text-white text-[1.7rem]">
+              <h1 class="text-3xl font-bold uppercase text-white">
+                #SUPPORT <br />
+                <span
+                  style="
+                    -webkit-text-stroke: 1px #ffffff !important;
+                    -webkit-text-fill-color: transparent;
+                  "
+                  class="inline-block"
+                  >Growth at</span
+                >
+                NITJ
+              </h1>
+            </div>
+            <div class="self-center">
+              <button class="bg-blue-100 p-2 rounded-lg font-extrabold">
+                DONATE NOW &rarr;
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+
     <!--footer-->
     <div class="w-[100%] mt-[8%] h-[40vh] bg-[#fff] relative bottom-0">
       <div
