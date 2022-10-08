@@ -66,7 +66,6 @@
         background-size: cover;
         width: 85%;
       }
-  
-      .sidebar{
-        background: url(./images/footer-background.jpg);
+ .sidebar{
+        background-color:rgb(244,244,244);
       }
